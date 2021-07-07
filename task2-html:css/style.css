@@ -1,0 +1,100 @@
+body{
+    margin: 20px;
+    padding: 0;
+    /* overflow: auto */
+    overflow-x: hidden;
+    font-family:  Trueno Rg, sans-serif;
+}
+#main-div{
+
+    width: 700px;
+    height: 900px;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    margin-left: 26.12em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#left-div{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    float: left;
+    color: white;
+    background-color: rgb(242, 242, 242);
+
+}
+#right-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 94, 0);
+    float: right;
+    color: white;
+    background-color: rgb(242, 242, 242);
+}
+#left-bottom-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(200, 255, 0);
+    float: left;
+    background-color: rgb(242, 242, 242);
+
+}
+#right-bottom-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(15, 15, 59);
+    float: right;
+    color: white;
+    background-color: rgb(242, 242, 242);
+}
+#horizontal-bar{
+    width:50%;
+    background-color: rgb(114, 171, 188);
+    margin-left: 8%;
+    color: white;
+    width: 290px;
+display: block;
+border-radius: 5px;
+text-align: center;
+padding: 7px;
+margin-top: 8px;
+    
+}
+#vertical-line-div{
+    height: 257%;
+    position: absolute;
+    border-left: 1px dashed red;
+    left: 55%;
+    
+
+}
+#green-color{
+    color:  rgb(118, 177, 192);
+    font-family:  Trueno Rg, sans-serif;
+    font-size: 25px;
+
+}
+#yellow-color{
+    color: rgb(232, 190, 84);
+    font-family: Trueno Rg, bold, sans-serif;
+    font-size: 25px;
+}
+
+.increase{
+    color: teal;
+font-size: 24px;
+line-height: 7px;
+font-family: Trueno Rg, sans-serif;
+margin-left: 29px;
+letter-spacing: 0.8px;
+}
+.parablue{
+color: rgb(118, 177, 192);
+margin-left: 32px;
+font-family: Trueno Rg, sans-serif;
+text-align: inherit;
+margin-top: 5px;
+}
